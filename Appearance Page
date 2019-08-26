@@ -1,0 +1,82 @@
+ <!--Appearance Page-->
+
+        <PivotItem Header="Pivot 3" 
+                   x:Name="pivotThree" 
+                   Background="White" 
+                   Margin="0">
+
+            <Grid>
+
+                <StackPanel x:Name="AppearancePage_StackPanel"
+                        Margin="0 10 800 0">
+                    <TextBox x:Name="Age_TextBox"
+                         Header="Age"
+                         PlaceholderText="Input Your Age"
+                         Margin="0 0 100 0"
+                         Width="500"
+                         Height="80"
+                         FontSize="20"/>
+
+                    <TextBox x:Name="Height_TextBox"
+                         Header="Height"
+                         PlaceholderText="Input Your Height"
+                         Margin="0 20 100 0"
+                         Width="500"
+                         Height="80"
+                         FontSize="20"/>
+
+                    <TextBox x:Name="Weight_TextBox"
+                         Header="Weight"
+                         PlaceholderText="Input Your Weight"
+                         Margin="0 20 100 0"
+                         Width="500"
+                         Height="80"
+                         FontSize="20"/>
+
+                    <TextBox x:Name="Eyes_TextBox"
+                         Header="Eyes"
+                         PlaceholderText="Input Your Eye Color"
+                         Margin="0 20 100 0"
+                         Width="500"
+                         Height="80"
+                         FontSize="20"/>
+
+                    <TextBox x:Name="Skin_TextBox"
+                         Header="Skin"
+                         PlaceholderText="Input Your Skin Color"
+                         Margin="0 20 100 0"
+                         Width="500"
+                         Height="80"
+                         FontSize="20"/>
+
+                    <TextBox x:Name="Hair_TextBox"
+                         Header="Hair"
+                         PlaceholderText="Input Your Hair Color"
+                         Margin="0 20 100 0"
+                         Width="500"
+                         Height="80"
+                         FontSize="20"/>
+
+                    <Button x:Name="AppearanceSubmit_Button"
+                        Content="Submit"
+                        Margin="468 15 0 0"
+                        Width="100"
+                        Click="SubmitButton_Click"/>
+
+                </StackPanel>
+
+                <StackPanel x:Name="AppearancePage_StackPanel2"
+                            Margin="600 10 100 0">
+                    <TextBox x:Name="Appearance_TextBlock"
+                               Width="700"
+                               Height="500"
+                               Header="Apperance"
+                               FontSize="20"
+                               Margin="0 50 0 0"
+                             >
+                        
+                    </TextBox>
+
+                </StackPanel>
+            </Grid>
+        </PivotItem>
